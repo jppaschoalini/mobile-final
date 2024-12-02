@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Trabalho_de_mobile"
         tools:targetApi="31">
         <activity
+            android:name=".view.PedidosActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.CardapioActivity"
             android:exported="false" />
         <activity
