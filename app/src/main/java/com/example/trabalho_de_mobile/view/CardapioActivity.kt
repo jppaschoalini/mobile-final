@@ -37,5 +37,34 @@ class CardapioActivity : AppCompatActivity() {
             val intent = Intent(this, PedidosActivity::class.java)
             startActivity(intent)
         }
+
+
+        binding.chocolate.setOnClickListener{
+            val intent = Intent(this,ChocolateActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.chocolateBranco.setOnClickListener{
+            val intent = Intent(this,ChocolateBrancoActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.ninho.setOnClickListener{
+            val intent = Intent(this,NinhoActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.nutella.setOnClickListener{
+            val intent = Intent(this,NutellaActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.pistache.setOnClickListener{
+            val intent = Intent(this,PistacheActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
     }
 }
