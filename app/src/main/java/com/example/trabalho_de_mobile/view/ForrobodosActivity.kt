@@ -9,26 +9,23 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.trabalho_de_mobile.R
 import com.example.trabalho_de_mobile.databinding.ActivityChocolateBinding
-import com.example.trabalho_de_mobile.databinding.ActivityChocolateBrancoBinding
-import com.example.trabalho_de_mobile.databinding.ActivityNutellaBinding
+import com.example.trabalho_de_mobile.databinding.ActivityForrobodosBinding
 
-class NutellaActivity : AppCompatActivity() {
+class ForrobodosActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityNutellaBinding
-
-
+    private lateinit var binding: ActivityForrobodosBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_nutella)
+        setContentView(R.layout.activity_forrobodos)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        binding = ActivityNutellaBinding.inflate(layoutInflater)
+        binding = ActivityForrobodosBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.voltar.setOnClickListener {

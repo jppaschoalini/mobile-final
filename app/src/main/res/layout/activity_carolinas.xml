@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".view.NinhoActivity">
+    tools:context=".view.CarolinasActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,26 +39,27 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Suspiro"/>
+        android:text="Carolina"/>
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:background="@drawable/suspiro" />
+        android:background="@drawable/carolina" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Preço: R$15,00 / 100g"/>
+        android:text="Preço: R$30,00 100g"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
         android:textSize="20dp"
-        android:text="O suspiro é um doce leve e crocante, feito basicamente de claras de ovos e açúcar, batidos até atingirem uma consistência firme, formando picos."/>
+        android:text="carolina crocante trufada com recheio de chocolate e calda quente resfriada de chocolate"/>
+
 
 </LinearLayout>

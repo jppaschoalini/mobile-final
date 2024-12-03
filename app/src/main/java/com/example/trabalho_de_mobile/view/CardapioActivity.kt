@@ -64,6 +64,56 @@ class CardapioActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.carolina.setOnClickListener{
+            val intent = Intent(this,CarolinasActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.forrobodo.setOnClickListener{
+            val intent = Intent(this,ForrobodosActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.sonho.setOnClickListener{
+            val intent = Intent(this,SonhosActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.tortadelimao.setOnClickListener{
+            val intent = Intent(this,TortadelimaosActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.suspiro.setOnClickListener{
+            val intent = Intent(this,SuspirosActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.sucodelaranja.setOnClickListener{
+            val intent = Intent(this,SucoDeLaranjaActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.sucodemorango.setOnClickListener{
+            val intent = Intent(this,SucoDeMorangoActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.sucodeabacaxi.setOnClickListener{
+            val intent = Intent(this,SucoDeAbacaxiActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.sucodeacerola.setOnClickListener{
+            val intent = Intent(this,SucoDeAcerolaActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.sucodemelancia.setOnClickListener{
+            val intent = Intent(this,SucoDeMelanciaActivity::class.java)
+            startActivity(intent)
+        }
+
 
 
     }

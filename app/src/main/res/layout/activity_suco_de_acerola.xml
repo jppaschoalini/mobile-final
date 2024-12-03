@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".view.NinhoActivity">
+    tools:context=".view.SucoDeAcerolaActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,5 +61,6 @@
         android:textSize="20dp"
         android:text="
 O suco de acerola é uma bebida altamente nutritiva, rica em vitamina C, antioxidantes e minerais. Ele ajuda a fortalecer o sistema imunológico, combater radicais livres e melhorar a saúde da pele."/>
+
 
 </LinearLayout>

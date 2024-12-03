@@ -15,6 +15,36 @@
         android:theme="@style/Theme.Trabalho_de_mobile"
         tools:targetApi="31">
         <activity
+            android:name=".view.TortadelimaosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SuspirosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SucoDeMorangoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SucoDeMelanciaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SucoDeLaranjaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SucoDeAcerolaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SucoDeAbacaxiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ForrobodosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CarolinasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SonhosActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.PistacheActivity"
             android:exported="false" />
         <activity

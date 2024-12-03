@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".view.NinhoActivity">
+    tools:context=".view.ForrobodosActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,26 +39,27 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Suco de morango"/>
+        android:text="Forróbodó"/>
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:background="@drawable/sucodemorango" />
+        android:background="@drawable/forrobodo" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Preço: R$15,00 500ml"/>
+        android:text="Preço: R$20,00 / 100g"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
         android:textSize="20dp"
-        android:text="O suco de morango é uma bebida doce e refrescante, rica em vitamina C, antioxidantes e fibras. Além de ajudar a fortalecer o sistema imunológico."/>
+        android:text="O forróbodó é um doce típico da culinária nordestina, especialmente popular no estado da Paraíba. Ele é feito à base de milho verde, leite condensado, açúcar e coco, que são cozidos até atingirem uma consistência cremosa e saborosa. Seu nome faz referência ao forró, um estilo musical tradicional do Nordeste."/>
+
 
 </LinearLayout>
