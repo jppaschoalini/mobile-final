@@ -22,17 +22,18 @@
             android:src="@drawable/baseline_logout_24"/>
 
         <TextView
-            android:layout_width="220dp"
+            android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Cardapio"
             android:textSize="24sp" />
 
         <ImageButton
-            android:id="@+id/pedido"
+            android:id="@+id/carrinho"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/baseline_shopping_cart_24"/>
+
     </LinearLayout>
 
     <Space

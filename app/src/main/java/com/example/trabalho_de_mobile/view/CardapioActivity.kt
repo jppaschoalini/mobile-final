@@ -29,12 +29,12 @@ class CardapioActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.logout.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
 
-        binding.pedido.setOnClickListener{
-            val intent = Intent(this, PedidosActivity::class.java)
+        binding.carrinho.setOnClickListener {
+            val intent = Intent(this,CarrinhoActivity::class.java)
             startActivity(intent)
         }
 

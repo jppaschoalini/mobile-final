@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Trabalho_de_mobile"
         tools:targetApi="31">
         <activity
+            android:name=".view.CarrinhoActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.TortadelimaosActivity"
             android:exported="false" />
         <activity
@@ -58,9 +61,6 @@
             android:exported="false" />
         <activity
             android:name=".view.ChocolateActivity"
-            android:exported="false" />
-        <activity
-            android:name=".view.PedidosActivity"
             android:exported="false" />
         <activity
             android:name=".view.CardapioActivity"
