@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".view.PistacheActivity">
+    tools:context=".view.NinhoActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,26 +39,26 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Pistache"/>
+        android:text="Suco de laranja"/>
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:background="@drawable/pistache" />
+        android:background="@drawable/sucodelaranja" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Preço: 10,00"/>
+        android:text="Preço: R$15,00 500ml"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:gravity="left"
         android:textSize="20dp"
-        android:text="pipocoa gourmet caramelizada banhada em cobertura sabor pistache"/>
+        android:text="O suco de laranja é uma bebida refrescante e nutritiva, rica em vitamina C, antioxidantes e fibras e popular por seus benefícios à saúde."/>
 
 </LinearLayout>

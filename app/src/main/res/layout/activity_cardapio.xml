@@ -33,112 +33,297 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/baseline_shopping_cart_24"/>
-
-
     </LinearLayout>
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="20dp" />
 
+    <!-- ScrollView para Pipocas Gourmet, Doces e Sucos -->
     <ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="chocolate"/>
-
-
-        <ImageButton
-            android:id="@+id/chocolate"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/chocolate" />
-
-        <Space
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="20dp" />
-
-        <TextView
-            android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="chocolate branco"/>
+            android:orientation="vertical"
+            android:gravity="center">
 
+            <!-- Pipocas Gourmet -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Pipocas gourmet:"
+                android:textSize="25sp"/>
 
-        <ImageButton
-            android:id="@+id/chocolate_branco"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/chocolate_branco" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="chocolate"/>
 
-        <TextView
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="ninho"/>
+                <ImageButton
+                    android:id="@+id/chocolate"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/chocolate" />
 
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
 
-        <ImageButton
-            android:id="@+id/ninho"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/ninho" />
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="chocolate branco"/>
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="20dp" />
+                <ImageButton
+                    android:id="@+id/chocolate_branco"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/chocolate_branco" />
 
-        <TextView
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="nutella"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
 
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ninho"/>
 
-        <ImageButton
-            android:id="@+id/nutella"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/nutella" />
+                <ImageButton
+                    android:id="@+id/ninho"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/ninho" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="20dp" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
 
-        <TextView
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="pistache"/>
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="nutella"/>
 
+                <ImageButton
+                    android:id="@+id/nutella"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/nutella" />
 
-        <ImageButton
-            android:id="@+id/pistache"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/pistache" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="pistache"/>
 
+                <ImageButton
+                    android:id="@+id/pistache"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/pistache" />
 
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </LinearLayout>
 
-    </LinearLayout>
+            <!-- Doces -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Doces:"
+                android:textSize="25sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="carolina"/>
+                <ImageButton
+                    android:id="@+id/carolina"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/carolina" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="forrobodo"/>
+                <ImageButton
+                    android:id="@+id/forrobodo"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/forrobodo" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="sonho"/>
+                <ImageButton
+                    android:id="@+id/sonho"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/sonho" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="torta de limão"/>
+                <ImageButton
+                    android:id="@+id/tortadelimao"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/tortadelimao" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="suspiro"/>
+                <ImageButton
+                    android:id="@+id/suspiro"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/suspiro" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            <!-- Sucos -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Sucos:"
+                android:textSize="25sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="suco de laranja"/>
+                <ImageButton
+                    android:id="@+id/sucodelaranja"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/sucodelaranja" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="suco de morango"/>
+                <ImageButton
+                    android:id="@+id/sucodemorango"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/sucodemorango" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="suco de abacaxi"/>
+                <ImageButton
+                    android:id="@+id/sucodeabacaxi"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/sucodeabacaxi" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="suco de acerola"/>
+                <ImageButton
+                    android:id="@+id/sucodeacerola"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/sucodeacerola" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="suco de melancia"/>
+                <ImageButton
+                    android:id="@+id/sucodemelancia"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/sucodemelancia" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
     </ScrollView>
-
-
 </LinearLayout>

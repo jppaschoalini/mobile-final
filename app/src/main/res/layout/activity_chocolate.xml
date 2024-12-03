@@ -52,13 +52,13 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Preço:"/>
+        android:text="Preço: 10,00"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="descricao"/>
+        android:text="pipocoa gourmet caramelizada banhada em cobertura sabor chocolate"/>
 
 </LinearLayout>

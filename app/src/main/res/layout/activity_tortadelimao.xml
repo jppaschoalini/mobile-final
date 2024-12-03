@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".view.PistacheActivity">
+    tools:context=".view.NinhoActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,26 +39,26 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Pistache"/>
+        android:text="Torta de limão"/>
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:background="@drawable/pistache" />
+        android:background="@drawable/tortadelimao" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Preço: 10,00"/>
+        android:text="Preço: R$25,00 / 100g"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:gravity="left"
         android:textSize="20dp"
-        android:text="pipocoa gourmet caramelizada banhada em cobertura sabor pistache"/>
+        android:text="Refrescante e equilibrado. Ela é feita com uma base de biscoito (geralmente de maizena ou de maisena triturado), que é combinada com uma camada cremosa de recheio à base de leite condensado, suco de limão e creme de leite."/>
 
 </LinearLayout>

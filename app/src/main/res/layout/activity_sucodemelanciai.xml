@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".view.PistacheActivity">
+    tools:context=".view.NinhoActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,26 +39,26 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Pistache"/>
+        android:text="Suco de melancia"/>
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:background="@drawable/pistache" />
+        android:background="@drawable/sucodemelancia" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
-        android:text="Preço: 10,00"/>
+        android:text="Preço: R$15,00 500ml"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:gravity="left"
         android:textSize="20dp"
-        android:text="pipocoa gourmet caramelizada banhada em cobertura sabor pistache"/>
+        android:text="O suco de melancia é uma bebida refrescante e hidratante, rica em vitaminas A, C e antioxidantes, como o licopeno. Ele ajuda a manter a pele saudável, melhora a hidratação do corpo e pode auxiliar na redução da pressão arterial"/>
 
 </LinearLayout>
