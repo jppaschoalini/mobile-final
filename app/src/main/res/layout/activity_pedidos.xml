@@ -26,26 +26,6 @@
         android:layout_height="20dp"/>
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="138dp"
-        android:layout_height="28dp"
-        android:text="Valor total:"
-        android:textSize="24sp"/>
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="110dp"
-        android:layout_height="28dp"
-        android:text="R$ 60,00"
-        android:textSize="24sp"/>
-
-
-
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"/>
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25dp"
@@ -166,6 +146,24 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:text="quantidade: 2" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="138dp"
+        android:layout_height="28dp"
+        android:text="Valor total:"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:text="R$ 60,00"
+        android:textSize="24sp"/>
 
     <Space
         android:layout_width="wrap_content"
